@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+#container > p {
+    font-size: 20px;
+    color: indigo;
+}
+
+#quiz > p {
+    text-align: center;
+    font-size: 30px;
+}
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:  500px;
+}
+
+button {
+    font-size: 25px;
+    background-color: indigo;
+    border-radius: 20px 20px 20px 20px;
+    color: aliceblue;
+    border: none;
+    padding: 7px;
+}
+#highscores {
+    margin-left: 30px;
+}
+
+#time {
+    margin-right: 30px;
+}
+#answer {
+    color: gray;
+    font-size: 30px;
+    text-align: center;
+}
